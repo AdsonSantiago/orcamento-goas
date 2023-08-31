@@ -1,0 +1,102 @@
+/* Estilos para o corpo da página */
+body {
+    background-color: #e1cee1;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Estilos para cabeçalhos (h1, h2, etc.) */
+h1 {
+    
+    background-image: linear-gradient(to right, #cf40a9, #6d1f73);
+    color: white; /* torna o texto dentro do h1 transparente para mostrar o gradiente por trás */
+    
+}
+
+h2 {
+    color: #555454;
+}
+
+p {
+    color: #555454;
+
+}
+
+/* Estilos para botões */
+button {
+    padding: 10px 20px;
+    background-color: #5e387b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    border-radius: 10px;
+    background-color: #c73086;
+}
+
+/* Estilos para imagens de produtos */
+img.produto-image {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.2s;
+    border-radius: 20px;
+}
+
+.div1, .div2 {
+    background-color: #b3a5b6;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+
+
+/* Estilos para os contêineres de produtos */
+.produto-container {
+    color: #555454;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.produto-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+    float: left; /* Define a imagem como elemento flutuante à esquerda */
+}
+
+.produto-text {
+    align-items: normal;
+    margin-left: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+.produto-preco {
+    color: rgb(9, 172, 47);
+    margin-left: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+.small-input {
+    border-radius: 10px;
+    width: 22px;
+}
+
+.logo {
+    position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 100px;
+}
+
+.opc-1 {
+  text-align: left;
+
+  
+}
